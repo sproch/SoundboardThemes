@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "family-pup-pad",
+  "version": 1,
+  "name": "Pup Pad \u00b7 Private test",
+  "author": "Family test fixture",
+  "license": "Private test only. Third-party rights remain with their owners. Do not distribute this package.",
+  "summary": "The existing family board, imported through the same theme format as any other theme.",
+  "appearance": {
+    "layout": "radial",
+    "frame": "console",
+    "pattern": "circuits",
+    "backgroundTop": "#063475",
+    "backgroundBottom": "#073E83",
+    "surface": "#063B73",
+    "accent": "#91E8FF",
+    "frameAccent": "#E84750",
+    "chromeLight": "#FFFFFF",
+    "chromeDark": "#778B9F",
+    "centerImage": "badge",
+    "centerSymbol": "waveform"
+  },
+  "labels": {
+    "title": "PUP PAD",
+    "subtitle": "ADVENTURE BAY",
+    "hint": "TAP A PUP TO CALL",
+    "ready": "PUP CONNECTED",
+    "connecting": "CALLING",
+    "end": "END CALL",
+    "buttonVerb": "Call"
+  },
+  "buttons": [
+    {
+      "id": "chase",
+      "name": "Chase",
+      "caption": "Chase is on the case!",
+      "color": "#1889ED",
+      "symbol": "waveform",
+      "image": "chase-image",
+      "sound": "chase",
+      "behavior": "call"
+    },
+    {
+      "id": "marshall",
+      "name": "Marshall",
+      "caption": "I\u2019m fired up!",
+      "color": "#FA4351",
+      "symbol": "waveform",
+      "image": "marshall-image",
+      "sound": "marshall",
+      "behavior": "call"
+    },
+    {
+      "id": "zuma",
+      "name": "Zuma",
+      "caption": "Let\u2019s dive in!",
+      "color": "#FF9B23",
+      "symbol": "waveform",
+      "image": "zuma-image",
+      "sound": "zuma",
+      "behavior": "call"
+    },
+    {
+      "id": "rocky",
+      "name": "Rocky",
+      "caption": "Green means go!",
+      "color": "#76D442",
+      "symbol": "waveform",
+      "image": "rocky-image",
+      "sound": "rocky",
+      "behavior": "call"
+    },
+    {
+      "id": "skye",
+      "name": "Skye",
+      "caption": "This pup\u2019s gotta fly!",
+      "color": "#FF80BD",
+      "symbol": "waveform",
+      "image": "skye-image",
+      "sound": "skye",
+      "behavior": "call"
+    },
+    {
+      "id": "rubble",
+      "name": "Rubble",
+      "caption": "Let\u2019s dig it!",
+      "color": "#FFD64A",
+      "symbol": "waveform",
+      "image": "rubble-image",
+      "sound": "rubble",
+      "behavior": "call"
+    }
+  ],
+  "music": "music",
+  "connection": {
+    "sound": "ringtone",
+    "delay": 1.35
+  },
+  "assets": {
+    "chase-image": {
+      "path": "chase.jpg",
+      "kind": "image",
+      "bytes": 69761,
+      "sha256": "0d40bcdde9acaa097a6e9509974bb4e8dbedfceb83b978c9c4b2bcabc61702b4"
+    },
+    "chase": {
+      "path": "chase.wav",
+      "kind": "audio",
+      "bytes": 282678,
+      "sha256": "601adff403592f868c9af911beab1b99b712dc4bc29e86cb246414b87d7a5ba4"
+    },
+    "marshall-image": {
+      "path": "marshall.jpg",
+      "kind": "image",
+      "bytes": 57611,
+      "sha256": "2f5f436f27b66f288f34e6e8db1e1112f4fd56c44ec6499d1c2b936be0ad1eda"
+    },
+    "marshall": {
+      "path": "marshall.wav",
+      "kind": "audio",
+      "bytes": 241318,
+      "sha256": "5601808586ea21dcc705c844c05a77bc601fc2122f67b17173b74f445c93006c"
+    },
+    "zuma-image": {
+      "path": "zuma.jpg",
+      "kind": "image",
+      "bytes": 73022,
+      "sha256": "50527da410ad577ce11a3b9a0af86af5d5c0d4aa65885013aad1720e820c0308"
+    },
+    "zuma": {
+      "path": "zuma.wav",
+      "kind": "audio",
+      "bytes": 330694,
+      "sha256": "564765a428ee5893f2e39b6067bffae62d90246f21c53fedc2555f18bc270dab"
+    },
+    "rocky-image": {
+      "path": "rocky.jpg",
+      "kind": "image",
+      "bytes": 69410,
+      "sha256": "1399860f53a8bb0cd7c876846b4d43495e8ea4dc5531b6741473db6ed0b8e9df"
+    },
+    "rocky": {
+      "path": "rocky.wav",
+      "kind": "audio",
+      "bytes": 367102,
+      "sha256": "91c56ab40db9b9de14d998b73e4d9f80fcba6407af917a082b5013c4daa70eed"
+    },
+    "skye-image": {
+      "path": "skye.jpg",
+      "kind": "image",
+      "bytes": 64757,
+      "sha256": "2faa46222220b7730672be2b2885de67d7b67a2976fb395fd1df96f67676eb1d"
+    },
+    "skye": {
+      "path": "skye.wav",
+      "kind": "audio",
+      "bytes": 339182,
+      "sha256": "7498d50f55812d1905972bd23299961e5c9c018d2cd9cbb061eeb2800b8ec213"
+    },
+    "rubble-image": {
+      "path": "rubble.jpg",
+      "kind": "image",
+      "bytes": 76410,
+      "sha256": "b92dbd791b9b554caae367518f91d48afc5f7a0d6c3d44e965d9b7badfd8c7b3"
+    },
+    "rubble": {
+      "path": "rubble.wav",
+      "kind": "audio",
+      "bytes": 264958,
+      "sha256": "19b67ff6b9df8881804103d2a59c1ae47aa56d56d8008fc7f7103654d1ca35bb"
+    },
+    "ryder": {
+      "path": "ryder.wav",
+      "kind": "audio",
+      "bytes": 428142,
+      "sha256": "6a501dbeca960fa43249de8e9cab58d97c4db72e8e42f913200628596992c876"
+    },
+    "ringtone": {
+      "path": "ringtone.wav",
+      "kind": "audio",
+      "bytes": 171734,
+      "sha256": "374d00f8cca0a8a0d39a95bba2707561f06aeb9ee04c7b6d9b5d4adf677f5407"
+    },
+    "music": {
+      "path": "music.wav",
+      "kind": "audio",
+      "bytes": 1172790,
+      "sha256": "35bd41cf2575d8f57278ca774cf9fd545cf774ed317fc80dbbdc797e6351e3eb"
+    },
+    "badge": {
+      "path": "center.png",
+      "kind": "image",
+      "bytes": 805213,
+      "sha256": "8e4853d1dd31c7d2180adda493499fa4e78553d57397ce82f150650eeec3554e"
+    }
+  },
+  "primary": {
+    "title": "PAW PATROL IS ON A ROLL!",
+    "connectingTitle": "CALLING ALL PUPS\u2026",
+    "subtitle": "No job is too big. No pup is too small!",
+    "doneLabel": "ALL PUPS READY",
+    "sound": "ryder",
+    "followWithMusic": true
+  }
+}
