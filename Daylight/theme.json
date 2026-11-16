@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "daylight",
+  "version": 1,
+  "name": "Daylight",
+  "author": "Your name",
+  "license": "Original example sounds and visuals created for this project.",
+  "summary": "An original light theme for your soundboard.",
+  "appearance": {
+    "layout": "grid",
+    "frame": "plain",
+    "pattern": "none",
+    "backgroundTop": "#F5F2EB",
+    "backgroundBottom": "#E8E5DF",
+    "surface": "#FFFFFF",
+    "accent": "#6553BC",
+    "frameAccent": "#D2CCEA",
+    "chromeLight": "#FFFFFF",
+    "chromeDark": "#B4AEBF",
+    "centerSymbol": "waveform"
+  },
+  "labels": {
+    "title": "Soundboard",
+    "subtitle": "DAYLIGHT",
+    "hint": "TAP A SOUND",
+    "ready": "READY",
+    "connecting": "CONNECTING",
+    "end": "DONE",
+    "buttonVerb": "Play"
+  },
+  "buttons": [
+    {
+      "id": "chime",
+      "name": "Chime",
+      "caption": "Chime",
+      "color": "#B5AAFF",
+      "symbol": "bell.fill",
+      "sound": "chime",
+      "behavior": "direct"
+    },
+    {
+      "id": "bell",
+      "name": "Bell",
+      "caption": "Bell",
+      "color": "#F4BE7B",
+      "symbol": "bell.badge.fill",
+      "sound": "bell",
+      "behavior": "direct"
+    },
+    {
+      "id": "pop",
+      "name": "Pop",
+      "caption": "Pop",
+      "color": "#F39EB6",
+      "symbol": "circle.inset.filled",
+      "sound": "pop",
+      "behavior": "direct"
+    },
+    {
+      "id": "spark",
+      "name": "Spark",
+      "caption": "Spark",
+      "color": "#8EDBCD",
+      "symbol": "sparkles",
+      "sound": "spark",
+      "behavior": "direct"
+    },
+    {
+      "id": "tap",
+      "name": "Tap",
+      "caption": "Tap",
+      "color": "#97BEF6",
+      "symbol": "hand.tap.fill",
+      "sound": "tap",
+      "behavior": "direct"
+    },
+    {
+      "id": "wave",
+      "name": "Wave",
+      "caption": "Wave",
+      "color": "#CFB4E8",
+      "symbol": "waveform",
+      "sound": "wave",
+      "behavior": "direct"
+    }
+  ],
+  "music": "music",
+  "assets": {
+    "chime": {
+      "path": "audio/chime.wav",
+      "kind": "audio",
+      "bytes": 64868,
+      "sha256": "c7d6517bc6e4fdb1f37d7a4b4dfce70dfcbe002feecc60686384e0b7fd8b0ed5"
+    },
+    "bell": {
+      "path": "audio/bell.wav",
+      "kind": "audio",
+      "bytes": 43260,
+      "sha256": "3aaa56cc6e0be51f9e6f333886adb6a7617bb1c9e12e36e2da829aed67b1d1c8"
+    },
+    "pop": {
+      "path": "audio/pop.wav",
+      "kind": "audio",
+      "bytes": 43260,
+      "sha256": "ace36a9054d23f86c29097d0c4b6750cdf6f2afdf854e4d4148f555250dbee5c"
+    },
+    "spark": {
+      "path": "audio/spark.wav",
+      "kind": "audio",
+      "bytes": 64868,
+      "sha256": "4a16c466389c10b91ab3d65e5a04c062697c8d7c6f06f08d98483d49057eacbf"
+    },
+    "tap": {
+      "path": "audio/tap.wav",
+      "kind": "audio",
+      "bytes": 64868,
+      "sha256": "329c3ad4f12fdbaeb02c50a1064f772773e37b937e8dd741f7eef112affb912a"
+    },
+    "wave": {
+      "path": "audio/wave.wav",
+      "kind": "audio",
+      "bytes": 108084,
+      "sha256": "a21630255d502927fce0e7d4f5a1544f5e65f7dc6e150a0ba3e8dcdde2af4b94"
+    },
+    "intro": {
+      "path": "audio/intro.wav",
+      "kind": "audio",
+      "bytes": 86476,
+      "sha256": "6cf0f1cca2b22bee024ecfb3f3e59a2e9bb3d0853768e2a02e975167004dbb8d"
+    },
+    "music": {
+      "path": "audio/music.wav",
+      "kind": "audio",
+      "bytes": 365180,
+      "sha256": "0fa64c736181a6ad7cb07d7003a9d7e0d514b9e1e24ecd1d6e8e74070f47ecc2"
+    }
+  },
+  "primary": {
+    "title": "Play the mix",
+    "connectingTitle": "GET READY",
+    "subtitle": "A little melody, just because.",
+    "doneLabel": "BACK TO SOUNDS",
+    "sound": "intro",
+    "followWithMusic": true
+  }
+}
